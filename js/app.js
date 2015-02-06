@@ -5,7 +5,6 @@
         return function(skills, query, title){
             var filteredSkills = $filter('filter')(skills, query);
             // se a query corresponde ao titulo e o filtered sills é vazio (empty), retornamos todos os skills
-            // if the query corresponds to the title and the filtered skills are empty, we return all the skills
             if(utility.contains(title, query) && filteredSkills.length == 0){
                 return skills;
             }

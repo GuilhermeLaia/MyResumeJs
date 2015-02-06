@@ -13,7 +13,7 @@
                     name             : 'Guilherme Medeiros',
                     birthDate        : '11/08/1991',
                     startWorkingDate : '01/01/2012',
-                    experience       : '$1 anos, $2 anos de experiência'
+                    experience       : '$1 anos, $2 anos de experiência.'
                 };
                 var age = utility.getDurationInYears(false, profileData.birthDate);
                 var workExperience = utility.getDurationInYears(true, profileData.startWorkingDate);
@@ -67,18 +67,18 @@
                 var hobbies = {
                     hobby1 : {
                         title : 'Esporte',
-                        desc1 : 'Eu gosto de esportes, especialmente de futebol torço para o Maior de Minas o (Cruzeiro Esporte Clube)',
+                        desc1 : 'Eu gosto de esportes, especialmente de futebol torço para o Maior de Minas o (Cruzeiro Esporte Clube).',
                         desc2 : 'Gosto também de lutas como: Taekwondo, onde pude fazer 4 anos desse esporte.'
                     },
                     hobby2 : {
                         title : 'Lazer',
-                        desc1 : 'De nature curieux, je voyage régulièrement dans le but de découvrir de nouvelles cultures.',
-                        desc2 : 'J\'ai notamment été fasciné par mes séjours en Asie du Sud (Hong-Kong, Malaisie, Singapour, Thailande, Sri-Lanka).'
+                        desc1 : 'Ficar com a família, sair com os amigos, conhecer lugares novos e aprender coisas novas nos tempos livres.',
+                        desc2 : ''
                     },
                     hobby3 : {
                         title : 'Estudos',
-                        desc1 : 'Je me passionne pour les arts modernes et les arts urbains. Je vais régulièrement voir des expositions (Warhol, Dali, Keith Haring, Banksy ...).',
-                        desc2 : 'De plus j\'assiste à des représentations théâtrales, les comédies de boulevard me plaisent particulièrement.'
+                        desc1 : 'Eu gosto de estudar tecnologias novas, ler livros e sempre me manter atualizado.',
+                        desc2 : 'Participar de cursos e palestras de grandes referências.'
                     }
                 };
                 return hobbies;
@@ -86,21 +86,21 @@
             getContact : function() {
                 var contact = {
                     form : {
-                        error   : 'Erreur lors de l\'envoi de l\'email. Veuillez réessayer.',
-                        name    : 'Nom',
+                        error   : 'Erro ao enviar e-mail. Por favor, tente novamente.',
+                        name    : 'Nome',
                         email   : 'Email',
                         message : 'Message',
                         send    : 'Enviar',
                         confirm : {
-                            part1 : 'Merci pour votre message !',
-                            part2 : 'A bientôt',
-                            back  : 'Retour au formulaire »'
+                            part1 : 'Obrigado pela sua mensagem !',
+                            part2 : 'Te vejo em breve',
+                            back  : 'Retornar para formulário »'
                         }
                     },
                     address : {
                         city    : 'Belo Horizonte',
                         zipCode : '31560-300',
-                        email   : 'gmllaia[@]gmail.com'
+                        email   : 'gmllaia@gmail.com'
                     }
                 };
                 return contact;
@@ -118,7 +118,7 @@
             getTimeline : function(){
                 var timeline = {
                     lang    : 'fr',
-                    content : 'https://docs.google.com/spreadsheet/pub?key=0Aj1DRa-P1mk8dExmZUxzY2VzbzFUWm1jMnZJS09oZ0E&output=html' 
+                    content : 'http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AtmicfTvSiREdG1seFpsTFJIWVdTLUVXTXAyelB5bnc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' 
                 }
                 return timeline;
             },
@@ -127,7 +127,7 @@
                     github   : 'https://github.com/laia10',
                     linkedin : 'https://br.linkedin.com/pub/guilherme-laia/58/634/b08/',
                     twitter  : 'https://twitter.com/gmllaia',
-                    resume   : '/data/guilherme_medeiros_cv.pdf'
+                    resume   : '/data/curriculo_guilherme_medeiros.pdf'
                 }
                 return links;
             },
@@ -156,7 +156,7 @@
                         }
                     ],
                     source : {
-                        text     : 'Sources du site sur ',
+                        text     : 'Fontes do Site ',
                         link     : 'https://github.com/laia10/myresume'
                     }               
                 }
